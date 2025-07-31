@@ -1,0 +1,449 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme.ldp",
+  "sections": {
+    "header": {
+      "type": "header-ldp",
+      "disabled": true,
+      "custom_css": [
+        ".headerWrapper--overlay {background: transparent; left: 0px; position: absolute; right: 360px; z-index: 6;}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/Group_1000003089.png",
+        "logo_width": 140
+      }
+    },
+    "instant_zw4_btcu_ieh2o_prq0_CAFUab": {
+      "type": "instant-ZW4BTCUIeh2oPRQ0",
+      "name": "M-WL Hero Banner",
+      "settings": {
+        "url_UTucwP4ZQI05qFGR": "",
+        "text_Cyucyd73wymrCN1I": "<p>Đăng ký tham gia</p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instant_xu3p_oz9e_hj_p1kh_nq_CKDnhp": {
+      "type": "instant-xu3pOz9eHjP1khNQ",
+      "name": "M-WL Section 1",
+      "settings": {
+        "text_kBEHX6vNhqCSWaFD": "<p>Đã bao giờ bạn</p>",
+        "text_CIaYimDN0IOOy9g5": "<p>Bị cuốn vào công việc, đến mức quên hỏi thăm người thân?</p>",
+        "text_DMx4s99aGxDmdikF": "<p>Cảm thấy kiệt sức, nhưng không biết tìm ai để chia sẻ?</p>",
+        "text_15MQhnPXBlRCRcCs": "<p>Mất phương hướng, không biết đâu là nơi mình có thể tìm thấy sự bình yên?</p>",
+        "text_2yOiBCycvaIHvYnP": "<p>Thấy cô đơn, ngay cả khi xung quanh có nhiều người?</p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instant_qz50_cmlw_a_uihbo_h8_RVVHLN": {
+      "type": "instant-QZ50CmlwAUihboH8",
+      "name": "M-WL Section 2",
+      "settings": {
+        "text_VnzNmNO59PIYYiqf": "<p>Ở Mẹ</p>",
+        "text_Rn2rEyEkGGrRv4mh": "<p>Đáp Án Có</p>",
+        "text_RCRoHRl0ohrAotKC": "<p>Có một nơi luôn sẵn sàng lắng nghe bạn, nơi tình yêu thương không vơi cạn</p>",
+        "text_9KAbuMj1m9u75emQ": "<p>Mẹ là nơi ôm ấp những tâm hồn tổn thương.</p>",
+        "text_5Op222jR1ZqRKRpx": "<p>Mẹ là người luôn lặng lẽ dõi theo dù bạn ở bất cứ đâu.</p>",
+        "text_OZDsoHC0eJbqinrz": "<p>Mẹ là suối nguồn của yêu thương, hy sinh mà không cần báo đáp.</p>",
+        "text_6LSWbuHzsptKJoD1": "<p>Mẹ là nơi ôm ấp những tâm hồn tổn thương.</p>",
+        "text_8PiFJFLet5IccpUb": "<p>Mẹ là người luôn lặng lẽ dõi theo dù bạn ở bất cứ đâu.</p>",
+        "text_cWvFdTJoQzmSrid1": "<p>Mẹ là suối nguồn của yêu thương, hy sinh mà không cần báo đáp.</p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instant_zf_dc_gw02o_y5f4p_ag_GLXyhA": {
+      "type": "instant-ZfDcGw02oY5f4pAG",
+      "name": "M-WL Section 3",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instant_w_ec8h_yd_ra_nv_ddzze_VRJUPM": {
+      "type": "instant-wEC8hYDRaNvDDZZE",
+      "name": "M-WL Section 4",
+      "settings": {
+        "text_QlPuSDpnBKSV7SoE": "<p>Ý Nghĩa Của</p>",
+        "text_ctsKeChshYaNd3kz": "<p>Buổi Hội Thảo</p>",
+        "text_vRDcoxhUHLhUTKR3": "<p>Buổi hội thảo không chỉ là một chương trình chia sẻ kiến thức mà còn là:</p>",
+        "text_bcg3LsJWVryzulT4": "<p>Một hành trình cảm xúc, giúp bạn kết nối lại với giá trị gia đình.</p>",
+        "text_21jvtn8KIm5QCpXf": "<p>Một cơ hội để tri ân, dành những lời yêu thương đến Mẹ và những người phụ nữ quan trọng.</p>",
+        "text_7tsiLTIqscLGa1t2": "<p>Một nơi để truyền tải giá trị yêu thương, để mỗi người tham dự đều mang theo những thông điệp tích cực và lan tỏa đến xung quanh.</p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero-banner": {
+      "type": "hero-banner-ldp",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_9VwfPW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qKpgii": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cuộc sống bận rộn đôi khi khiến chúng ta quên đi những giá trị quan trọng nhất...",
+            "heading_size": "h1"
+          }
+        },
+        "text_nF9Ute": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bị cuốn vào công việc, đến mức quên hỏi thăm người thân?</p>",
+            "text_style": "body"
+          }
+        },
+        "text_8nPQA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cảm thấy kiệt sức, nhưng không biết tìm ai để chia sẻ?</p>",
+            "text_style": "body"
+          }
+        },
+        "text_Lhbp4R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mất phương hướng, không biết đâu là nơi mình có thể tìm thấy sự bình yên?</p>",
+            "text_style": "body"
+          }
+        },
+        "text_nnWqB4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thấy cô đơn, ngay cả khi xung quanh có nhiều người?</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qKpgii",
+        "text_nF9Ute",
+        "text_8nPQA6",
+        "text_Lhbp4R",
+        "text_nnWqB4"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.image-with-text__content {padding: 3rem 0; }}"
+      ],
+      "settings": {
+        "custom_layout": "custom_layout_1",
+        "image": "shopify://shop_images/Frame_2147223161.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_gRNLJx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_68rHxY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_1.jpg",
+            "title": "Mẹ là nơi ôm ấp những tâm hồn tổn thương.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kyerjb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_2.jpg",
+            "title": "Mẹ là người luôn lặng lẽ dõi theo dù bạn ở bất cứ đâu.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hyYJMH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_3.jpg",
+            "title": "Mẹ là suối nguồn của yêu thương, hy sinh mà không cần báo đáp.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kMxnCT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image.jpg",
+            "title": "Hãy cùng tìm về nơi ấy – nơi có trái tim bao la của Mẹ.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_68rHxY",
+        "column_kyerjb",
+        "column_hyYJMH",
+        "column_kMxnCT"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_background": true,
+        "title": "Multicolumn",
+        "custom_title": "<div style=\"text-align: center;\">\n    <h2 style=\"color: #212075; margin-bottom: 25px;\">Nhưng, có một nơi luôn sẵn sàng lắng nghe bạn, nơi tình yêu thương không vơi cạn:\n</h2>\n</div>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 100
+      }
+    },
+    "image_banner_Vey9cV": {
+      "type": "image-banner",
+      "blocks": {
+        "icon_7eE4Wt": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/Layer_1.png"
+          }
+        },
+        "heading_dzATa8": {
+          "type": "heading",
+          "settings": {
+            "custom_title": "<h2 class=\"custom_title h1\">\n         <span style=\"color: #fff\">Đừng lo lắng,</span>\n<span style=\"color: #FFB62B\">Chúng tôi ở đây để giúp bạn!</span>\n        </h2>",
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_pQbi3F": {
+          "type": "text",
+          "settings": {
+            "text": "Với gần 20 năm kinh nghiệm trong huấn luyện và đào tạo kỹ năng sống, chúng tôi tự hào sở hữu những chiến lược và bí quyết đã giúp hàng triệu người sống có tầm nhìn rõ ràng và tạo dựng cuộc sống hạnh phúc. Chúng tôi muốn chia sẻ những điều này với bạn.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "icon_7eE4Wt",
+        "heading_dzATa8",
+        "text_pQbi3F"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rte {color: #fff;}"
+      ],
+      "settings": {
+        "show_background": true,
+        "image": "shopify://shop_images/1ab0cc40ba1155d4c07d9a30dbe5d1d1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_Qbra8g": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ciVefz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Giá trị khóa học",
+            "heading_size": "h1"
+          }
+        },
+        "text_WmYmax": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Khóa học \"<strong>Khai phóng tầm nhìn </strong>- Kiến tạo tương lai\"<strong> </strong>sẽ giúp bạn:</p>",
+            "text_style": "body"
+          }
+        },
+        "text_with_icon_eqRpR3": {
+          "type": "text_with_icon",
+          "settings": {
+            "caption": "<p><strong>Nhận thức rõ tầm nhìn hiện tại và tương lai của bản thân</strong> <br/>Từ đó tạo ra những quyết định sáng suốt, định hướng rõ ràng cho cuộc sống và sự nghiệp. </p>",
+            "image": "shopify://shop_images/bullseye.svg"
+          }
+        },
+        "text_with_icon_PJDXGb": {
+          "type": "text_with_icon",
+          "settings": {
+            "caption": "<p><strong>Công thức sắp xếp công việc và cuộc sống hiệu quả <br/></strong>Bạn sẽ học cách phân bổ thời gian hợp lý, làm việc thông minh để có không gian cho những điều quan trọng như gia đình, bản thân và đam mê.</p>",
+            "image": "shopify://shop_images/thumb-up.svg"
+          }
+        },
+        "text_with_icon_nUkJUN": {
+          "type": "text_with_icon",
+          "settings": {
+            "caption": "<p><strong>Tạo ra một gia đình hạnh phúc và gắn kết  <br/></strong>Chúng tôi sẽ hướng dẫn bạn cách cải thiện các mối quan hệ trong gia đình, biến ngôi nhà thành nơi yêu thương và hỗ trợ lẫn nhau. </p>",
+            "image": "shopify://shop_images/multi-user.svg"
+          }
+        },
+        "text_with_icon_rCGN3b": {
+          "type": "text_with_icon",
+          "settings": {
+            "caption": "<p><strong>Rèn luyện tầm nhìn lãnh đạo và truyền cảm hứng cho thế hệ tương lai</strong> <br/>Bạn sẽ học cách trở thành hình mẫu tích cực, truyền động lực cho những người xung quanh, đặc biệt là con cái và thế hệ trẻ.<br/></p>",
+            "image": "shopify://shop_images/crown.svg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ciVefz",
+        "text_WmYmax",
+        "text_with_icon_eqRpR3",
+        "text_with_icon_PJDXGb",
+        "text_with_icon_nUkJUN",
+        "text_with_icon_rCGN3b"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__content {padding-right: 0;}",
+        "@media only screen and (max-width: 749px) {.image-with-text__content {padding: 3rem 0; }}"
+      ],
+      "settings": {
+        "custom_layout": "custom_layout_2",
+        "image": "shopify://shop_images/Frame_2147223172.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "banner-with-text-overlay": {
+      "type": "banner-with-text-overlay-ldp",
+      "settings": {}
+    },
+    "blog-post": {
+      "type": "blog-ldp",
+      "blocks": {
+        "post_HyALUA": {
+          "type": "post",
+          "settings": {
+            "img": "shopify://shop_images/227b9ac7-304b-4c87-b9f7-d8cd675bed76_2000x1329_b4d42d6f-ad5d-45bf-af56-ba491419caa8.jpg",
+            "title": "Tạo dựng đội nhóm hiệu suất cao",
+            "date": "20/06/2025",
+            "url": "https://workluz.com/p/welcome-to-workluz"
+          }
+        },
+        "post_jd83YP": {
+          "type": "post",
+          "settings": {
+            "img": "shopify://shop_images/94b3ad3b-e9d5-42fc-9b52-ccffc2ef19c1_2000x1330_2028d2cb-f153-45df-83b8-5fc288361021.webp",
+            "title": "Cách tốt nhất để xử lý khi mắc sai lầm trong công việc",
+            "date": "13/06/2025",
+            "url": "https://workluz.com/p/viet-giup-ban-giai-quyet-moi-van"
+          }
+        },
+        "post_EByhCY": {
+          "type": "post",
+          "settings": {
+            "img": "shopify://shop_images/f5530b6a-7995-47ef-bf72-3500f58e7e15_1494x1000_1632f76c-33d6-4f76-a106-b7fe9589cc4d.webp",
+            "title": "“Chiến lược Seinfeld” - Cách ngừng trì hoãn mục tiêu",
+            "date": "01/04/2025",
+            "url": "https://workluz.com/p/lang-nghe-tot-tam-cao-moi-noi-cong-so"
+          }
+        }
+      },
+      "block_order": [
+        "post_HyALUA",
+        "post_jd83YP",
+        "post_EByhCY"
+      ],
+      "settings": {
+        "title": "",
+        "custom_title": "<h2 class=\"font-heading sectionTitle sectionTitle1\">\n       Bài viết từ <span class=\"highlight\">WorkLuz</span>     \n            </h2>"
+      }
+    },
+    "apps_ldp_cdNmdr": {
+      "type": "apps-ldp",
+      "blocks": {
+        "forms_inline_BcTKqf": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "155294",
+            "text_color": "#374151",
+            "button_background_color": "#ffb62b",
+            "button_label_color": "#212075",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_BcTKqf"
+      ],
+      "custom_css": [
+        "button._formSubmitButton_8skcf_90 {border-radius: 25px;}"
+      ],
+      "settings": {}
+    },
+    "footer": {
+      "type": "footer-ldp",
+      "settings": {}
+    }
+  },
+  "order": [
+    "header",
+    "instant_zw4_btcu_ieh2o_prq0_CAFUab",
+    "instant_xu3p_oz9e_hj_p1kh_nq_CKDnhp",
+    "instant_qz50_cmlw_a_uihbo_h8_RVVHLN",
+    "instant_zf_dc_gw02o_y5f4p_ag_GLXyhA",
+    "instant_w_ec8h_yd_ra_nv_ddzze_VRJUPM",
+    "hero-banner",
+    "image_with_text_9VwfPW",
+    "multicolumn_gRNLJx",
+    "image_banner_Vey9cV",
+    "image_with_text_Qbra8g",
+    "banner-with-text-overlay",
+    "blog-post",
+    "apps_ldp_cdNmdr",
+    "footer"
+  ]
+}

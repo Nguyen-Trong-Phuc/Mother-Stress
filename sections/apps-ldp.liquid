@@ -1,0 +1,57 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    background: #EEF6FD;
+    padding: 1px 0 1px;
+        background-image: url(https://cdn.shopify.com/s/files/1/0583/8441/6811/files/2_2.png?v=1734631296);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    .appsSection .ldpSection-header {
+        margin-bottom: 32px;
+    }
+  @media only screen and (min-width: 890px) {
+    .appsSection .ldpSection-header {
+        margin-bottom: 48px;
+    }
+  }
+</style>
+<div class="ldpSection animationSection appsSection indexSection bg-accent2" id="register">
+    <div class="ldpSection-header center">
+        <div class="container">
+            <h2 class="font-heading sectionTitle sectionTitle1">
+                Đăng ký tham gia Hội Thảo
+            </h2>
+          <p class="app_subtitle" style="text-align: center"> <span>Mẹ</span> <span>- Cội Nguồn Tình Yêu Thương</span></p>
+          <p>
+            Tại Hội thảo Mẹ - Cội nguồn tình yêu thương, bạn sẽ có thời gian cảm nhận rõ hơn tình yêu thương từ Mẹ. Lắng nghe những câu chuyện sâu sắc về tình mẫu tử. Trải nghiệm không gian cảm xúc đặc biệt. Tìm lại sự bình yên trong tâm hồn, tiếp thêm động lực để yêu thương và biết được nguồn sức mạnh để vượt qua những áp lực, khó khăn trong công việc và cuộc sống. Hãy cùng Workluz tạo nên những khoảnh khắc đáng nhớ.
+<br>Đăng ký tham dự ngay hôm nay!
+          </p>
+        </div>
+    </div>
+    <div class="ldpSection-content">
+        <div class="container">
+            <div class="apps-inner">
+               {%- for block in section.blocks -%}
+                  {% render block %}
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "LDP Apps",
+    "settings": [],
+     "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+    "presets": [
+      {
+        "name":"LDP Apps"
+      }
+    ]
+  }
+{% endschema %}

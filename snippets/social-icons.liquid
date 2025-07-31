@@ -1,0 +1,95 @@
+{% comment %}
+  Renders social icons.
+  Accepts:
+  - class: {String} a class to be added to the <ul> element (optional).
+
+  Usage:
+  {% render 'social-icons',
+    class: 'my-class'
+  %}
+{% endcomment %}
+
+<ul class="list-unstyled list-social-list {% if class %} {{ class}}{% endif %}" role="list">
+  {%- if settings.social_facebook_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_facebook_link }}" class="link list-social__link">
+        {%- render 'icon-facebook' -%}
+        <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_instagram_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_instagram_link }}" class="link list-social__link">
+        {%- render 'icon-instagram' -%}
+        <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_youtube_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_youtube_link }}" class="link list-social__link">
+        {%- render 'icon-youtube' -%}
+        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_tiktok_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_tiktok_link }}" class="link list-social__link">
+        {%- render 'icon-tiktok' -%}
+        <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_twitter_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_twitter_link }}" class="link list-social__link">
+        {%- render 'icon-twitter' -%}
+        <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_pinterest_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_pinterest_link }}" class="link list-social__link">
+        {%- render 'icon-pinterest' -%}
+        <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_snapchat_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_snapchat_link }}" class="link list-social__link">
+        {%- render 'icon-snapchat' -%}
+        <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_tumblr_link != blank -%}
+    <li class="list-social__item">
+      <a target="_blank" href="{{ settings.social_tumblr_link }}" class="link list-social__link">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false" role="presentation">
+                                    <path d="M6.37578 17.425C6.35078 17.425 6.31745 17.4417 6.29245 17.4417C4.67578 16.6417 3.35911 15.3167 2.55078 13.7C2.55078 13.675 2.56745 13.6417 2.56745 13.6167C3.58411 13.9167 4.63411 14.1417 5.67578 14.3167C5.85911 15.3667 6.07578 16.4084 6.37578 17.425Z" fill="currentColor"></path>
+                                    <path d="M17.4492 13.7084C16.6242 15.3667 15.2492 16.7084 13.5742 17.5167C13.8909 16.4584 14.1576 15.3917 14.3326 14.3167C15.3826 14.1417 16.4159 13.9167 17.4326 13.6167C17.4242 13.65 17.4492 13.6834 17.4492 13.7084Z" fill="currentColor"></path>
+                                    <path d="M17.5159 6.42494C16.4659 6.10828 15.4076 5.84994 14.3326 5.66661C14.1576 4.59161 13.8992 3.52494 13.5742 2.48328C15.2992 3.30828 16.6909 4.69994 17.5159 6.42494Z" fill="currentColor"></path>
+                                    <path d="M6.37409 2.57505C6.07409 3.59172 5.85742 4.62505 5.68242 5.67505C4.60742 5.84172 3.54076 6.10838 2.48242 6.42505C3.29076 4.75005 4.63242 3.37505 6.29076 2.55005C6.31576 2.55005 6.34909 2.57505 6.37409 2.57505Z" fill="currentColor"></path>
+                                    <path d="M12.9085 5.49163C10.9751 5.27496 9.02513 5.27496 7.0918 5.49163C7.30013 4.34996 7.5668 3.20829 7.9418 2.10829C7.95846 2.04163 7.95013 1.99163 7.95846 1.92496C8.6168 1.76663 9.2918 1.66663 10.0001 1.66663C10.7001 1.66663 11.3835 1.76663 12.0335 1.92496C12.0418 1.99163 12.0418 2.04163 12.0585 2.10829C12.4335 3.21663 12.7001 4.34996 12.9085 5.49163Z" fill="currentColor"></path>
+                                    <path d="M5.49102 12.9083C4.34102 12.7 3.20768 12.4333 2.10768 12.0583C2.04102 12.0417 1.99102 12.05 1.92435 12.0417C1.76602 11.3833 1.66602 10.7083 1.66602 10C1.66602 9.30001 1.76602 8.61667 1.92435 7.96667C1.99102 7.95834 2.04102 7.95834 2.10768 7.94167C3.21602 7.57501 4.34102 7.30001 5.49102 7.09167C5.28268 9.02501 5.28268 10.975 5.49102 12.9083Z" fill="currentColor"></path>
+                                    <path d="M18.3328 10C18.3328 10.7083 18.2328 11.3833 18.0745 12.0417C18.0078 12.05 17.9578 12.0417 17.8911 12.0583C16.7828 12.425 15.6495 12.7 14.5078 12.9083C14.7245 10.975 14.7245 9.02501 14.5078 7.09167C15.6495 7.30001 16.7911 7.56667 17.8911 7.94167C17.9578 7.95834 18.0078 7.96667 18.0745 7.96667C18.2328 8.62501 18.3328 9.30001 18.3328 10Z" fill="currentColor"></path>
+                                    <path d="M12.9085 14.5083C12.7001 15.6583 12.4335 16.7916 12.0585 17.8916C12.0418 17.9583 12.0418 18.0083 12.0335 18.075C11.3835 18.2333 10.7001 18.3333 10.0001 18.3333C9.2918 18.3333 8.6168 18.2333 7.95846 18.075C7.95013 18.0083 7.95846 17.9583 7.9418 17.8916C7.57513 16.7833 7.30013 15.6583 7.0918 14.5083C8.05846 14.6166 9.02513 14.6916 10.0001 14.6916C10.9751 14.6916 11.9501 14.6166 12.9085 14.5083Z" fill="currentColor"></path>
+                                    <path d="M13.1355 13.1361C11.0512 13.399 8.94749 13.399 6.86324 13.1361C6.60027 11.0518 6.60027 8.9481 6.86324 6.86385C8.94749 6.60088 11.0512 6.60088 13.1355 6.86385C13.3984 8.9481 13.3984 11.0518 13.1355 13.1361Z" fill="currentColor"></path>
+                                </svg>
+        <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_vimeo_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_vimeo_link }}" class="link list-social__link">
+        {%- render 'icon-vimeo' -%}
+        <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+</ul>
