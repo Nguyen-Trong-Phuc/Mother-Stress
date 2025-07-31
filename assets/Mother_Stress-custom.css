@@ -1,0 +1,24 @@
+a[href^="https://instant.so"] {
+      display: none !important;
+}
+
+.section-2-paragraph {
+    color: #271E52;
+    font-family: "Cormorant Infant";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+
+}
+
+.section-2-sub-paragraph div p {
+    color: #271E52;
+    font-family: "Cormorant Infant";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 30px */
+}
