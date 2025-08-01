@@ -947,7 +947,7 @@
     column-gap: 32px;
     display: flex;
     flex-direction: column;
-    height: 682px;
+    height: 760px;
     justify-content: flex-start;
     left: auto;
     position: relative;
@@ -960,15 +960,15 @@
 .__instant.iZW4BTCUIeh2oPRQ0 .iurICMkVb8li2upQr {
     border: 0 solid #000;
     bottom: auto;
-    height: 630px;
-    left: auto;
+    height: 760px;
+    left: -350px;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: none;
     position: absolute;
     right: auto;
-    top: 4px;
+    top: 0px;
     width: 1187px;
-    padding-left: 80px;
+    padding-left: 92px;
 
 }
 
